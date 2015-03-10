@@ -16,8 +16,9 @@
     "gulp-scss-lint": "^0.1.10"
   },
   "devDependencies": {
+    "browser-sync": "^2.2.3",
     "gulp-cache": "^0.2.8",
-    "gulp-livereload": "^3.8.0",
+    "gulp-css-globbing": "^0.1.7",
     "gulp-notify": "^2.2.0",
     "gulp-scss-lint": "^0.1.10"
   },

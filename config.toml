@@ -2,3 +2,4 @@ baseurl = "http://goodandlost.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "worldly"
+disableLiveReload = true

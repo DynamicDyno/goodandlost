@@ -1,0 +1,10 @@
+html lang=en
+  head
+    meta charset=utf-8
+    link href=/assets/css/application.css rel=stylesheet
+  body
+    h1 Good and Lost
+
+    .hero
+
+    script type=text/javascript src=assets/js/application.js
