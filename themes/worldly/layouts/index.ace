@@ -6,8 +6,6 @@ html lang=en
     link rel="shortcut icon" href=/favicon.ico type=image/x-icon
     link rel=icon href=/favicon.ico type=image/x-icon
   body
-    h1 Good and Lost
-
     .hero
-
+      h1 Good and Lost
     script type=text/javascript src=assets/js/application.js
