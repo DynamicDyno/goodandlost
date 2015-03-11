@@ -50,7 +50,7 @@ gulp.task('images', function() {
 // inline css
 gulp.task('inline-css', function() {
   return gulp.src('public/**/*.html')
-    .pipe(replace(/<link .*? href="\/assets\/css\/application.css"[^>]*>/, function(s) {
+    .pipe(replace(/<link .*?href="\/assets\/css\/application.css"[^>]*>/, function(s) {
       var style = fs.readFileSync('public/assets/css/application.css', 'utf8');
       return '<style>\n' + style + '\n</style>';
     }))
