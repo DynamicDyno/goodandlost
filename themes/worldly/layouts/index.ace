@@ -2,6 +2,8 @@ html lang=en
   head
     meta charset=utf-8
     link href=/assets/css/application.css rel=stylesheet
+    link rel="shortcut icon" href=/favicon.ico type=image/x-icon
+    link rel=icon href=/favicon.ico type=image/x-icon
   body
     h1 Good and Lost
 

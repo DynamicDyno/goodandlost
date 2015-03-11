@@ -56,6 +56,10 @@ gulp.task('default', ['clean'], function() {
   gulp.run('browser-sync', 'watch')
 });
 
+gulp.task('build', ['clean'], function() {
+  gulp.run('styles', 'scripts', 'images');
+});
+
 // static server
 gulp.task('browser-sync', function() {
   browserSync({
