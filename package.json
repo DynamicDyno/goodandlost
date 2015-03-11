@@ -17,9 +17,11 @@
   },
   "devDependencies": {
     "browser-sync": "^2.2.3",
+    "fs": "0.0.2",
     "gulp-cache": "^0.2.8",
     "gulp-css-globbing": "^0.1.7",
     "gulp-gzip": "^1.0.0",
+    "gulp-replace": "^0.5.3",
     "gulp-scss-lint": "^0.1.10",
     "run-sequence": "^1.0.2"
   },
