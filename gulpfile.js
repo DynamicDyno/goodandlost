@@ -54,7 +54,7 @@ gulp.task('gzip', function() {
 
 // clean
 gulp.task('clean', function() {
-  return gulp.src('public', {read: false})
+  return gulp.src(['public/assets/css', 'public/assets/js', 'public/assets/img'], {read: false})
     .pipe(clean());
 });
 
