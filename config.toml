@@ -1,5 +1,8 @@
 baseurl = "http://goodandlost.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Good and Lost"
 theme = "worldly"
 disableLiveReload = true
+uglyurls = true
+[permalinks]
+  post = ":filename"
