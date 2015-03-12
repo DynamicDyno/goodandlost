@@ -19,7 +19,7 @@ var gulp         = require('gulp'),
 
 // scripts
 gulp.task('scripts', function () {
-  return gulp.src('themes/worldly/static/js/*.js')
+  return gulp.src('themes/worldly/assets/js/*.js')
     .pipe(jshint())
     .pipe(jshint.reporter('default'))
     .pipe(uglify())
@@ -83,6 +83,7 @@ gulp.task('browser-sync', function() {
 // watch
 gulp.task('watch', function () {
   gulp.watch("themes/worldly/assets/css/**/*.scss", ['styles']);
+  gulp.watch("themes/worldly/assets/js/**/*", ['scripts']);
   gulp.watch("themes/worldly/assets/images/**/*", ['images']);
   // gulp.watch("./**/*.html", ['html']);
 });

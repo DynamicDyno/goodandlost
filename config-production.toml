@@ -3,3 +3,6 @@ languageCode = "en-us"
 title = "Good and Lost"
 theme = "worldly"
 disableLiveReload = true
+uglyurls = true
+[permalinks]
+  post = ":filename"
