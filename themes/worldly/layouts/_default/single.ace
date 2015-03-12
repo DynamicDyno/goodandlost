@@ -1,0 +1,8 @@
+= doctype html
+html lang=en
+  {{ partial "head" . }}
+  body
+    .content
+      {{ .Content }}
+
+    {{ partial "scripts" . }}

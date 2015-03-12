@@ -1,11 +1,6 @@
 = doctype html
-html lang=en
-  head
-    meta charset=utf-8
-    meta name=viewport content="width=device-width, initial-scale=1"
-    link href=/assets/css/application.css rel=stylesheet
-    link rel="shortcut icon" href=/favicon.ico type=image/x-icon
-    link rel=icon href=/favicon.ico type=image/x-icon
+html lang=en-US prefix="og: http://ogp.me/ns#"
+  {{ partial "head" . }}
   body
     .hero
       h1 Good and Lost
@@ -17,4 +12,4 @@ html lang=en
           {{ .Title }}
       {{ end }}
 
-    script type=text/javascript src=assets/js/application.js
+    {{ partial "scripts" . }}
