@@ -19,25 +19,23 @@ h1, h2, h3, h4 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.2;
-  color: #028482;
+  color: #009FBF;
+  margin: 1.5em 0 .5em;
 }
 
 h1 {
   font-size: 1em * $scale*$scale*$scale;
-  margin: 0 0 .5em;
+  margin-top: 0;
 }
 
 h2 {
   font-size: 1em * $scale*$scale;
-  margin: 1.5em 0 .5em;
 }
 
 h3 {
   font-size: 1em * $scale;
-  margin: 1.5em 0 .5em;
 }
 
 h4 {
   font-size: 1em;
-  margin: 1.5em 0 .5em;
 }
