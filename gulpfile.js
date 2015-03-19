@@ -62,7 +62,7 @@ gulp.task('inline-css', function() {
 
 // fingerprint assets
 gulp.task('revision', function() {
-  return gulp.src(['public/**/*.css', 'public/**/*.js', 'public/**/*.html'])
+  return gulp.src(['public/**/*.css', 'public/**/*.js', 'public/images/**/*'])
     .pipe(rev())
     .pipe(gulp.dest('public/'))
     .pipe(rev.manifest())
