@@ -4,5 +4,12 @@ html lang=en-US prefix="og: http://ogp.me/ns#"
   body
     .hero
       h1 Good and Lost
+    /
+      ul.posts
+        {{ range .Data.Pages }}
+        li
+          a href={{ .Permalink }}
+            {{ .Title }}
+        {{ end }}
 
     {{ partial "scripts" . }}

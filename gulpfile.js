@@ -15,6 +15,9 @@ var gulp         = require('gulp'),
     runSequence  = require('run-sequence'),
     replace      = require('gulp-replace'),
     fs           = require('fs'),
+    rev          = require('gulp-rev'),
+    revReplace   = require('gulp-rev-replace'),
+    fingerprint  = require('gulp-fingerprint'),
     reload       = browserSync.reload;
 
 // scripts
@@ -24,7 +27,7 @@ gulp.task('scripts', function () {
     .pipe(jshint.reporter('default'))
     .pipe(uglify())
     .pipe(concat('application.js'))
-    .pipe(gulp.dest('public/assets/js'));
+    .pipe(gulp.dest('public/assets/js'))
 });
 
 // styles
@@ -54,6 +57,23 @@ gulp.task('inline-css', function() {
       var style = fs.readFileSync('public/assets/css/application.css', 'utf8');
       return '<style>\n' + style + '\n</style>';
     }))
+    .pipe(gulp.dest('public/'));
+});
+
+// fingerprint assets
+gulp.task('revision', function() {
+  return gulp.src(['public/**/*.css', 'public/**/*.js', 'public/**/*.html'])
+    .pipe(rev())
+    .pipe(gulp.dest('public/'))
+    .pipe(rev.manifest())
+    .pipe(gulp.dest('./'));
+});
+
+gulp.task('fingerprint', ['revision'], function() {
+  var manifest = gulp.src('./rev-manifest.json');
+
+  return gulp.src('public/**/*.html')
+    .pipe(revReplace({manifest: manifest}))
     .pipe(gulp.dest('public/'));
 });
 
@@ -94,5 +114,5 @@ gulp.task('default', ['clean'], function() {
 });
 
 gulp.task('build', ['clean'], function() {
-  runSequence(['styles', 'scripts', 'images'], 'inline-css', 'gzip');
+  runSequence(['styles', 'scripts', 'images'], 'inline-css', 'fingerprint', 'gzip');
 });

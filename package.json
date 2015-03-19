@@ -20,9 +20,12 @@
     "fs": "0.0.2",
     "gulp-cache": "^0.2.8",
     "gulp-css-globbing": "^0.1.7",
+    "gulp-fingerprint": "^0.3.2",
     "gulp-gzip": "^1.0.0",
     "gulp-replace": "^0.5.3",
+    "gulp-rev": "^3.0.1",
     "gulp-scss-lint": "^0.1.10",
+    "gulp-useref": "^1.1.1",
     "run-sequence": "^1.0.2"
   },
   "scripts": {
