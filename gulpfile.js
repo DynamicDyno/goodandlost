@@ -62,9 +62,9 @@ gulp.task('inline-css', function() {
 
 // fingerprint assets
 gulp.task('revision', function() {
-  return gulp.src(['public/**/*.css', 'public/**/*.js', 'public/images/**/*'])
+  return gulp.src('public/assets/**/*')
     .pipe(rev())
-    .pipe(gulp.dest('public/'))
+    .pipe(gulp.dest('public/assets/'))
     .pipe(rev.manifest())
     .pipe(gulp.dest('./'));
 });
@@ -87,7 +87,7 @@ gulp.task('gzip', function() {
 
 // clean
 gulp.task('clean', function() {
-  return gulp.src(['public/assets/css', 'public/assets/js', 'public/assets/img'], {read: false})
+  return gulp.src(['public/assets/css', 'public/assets/js', 'public/assets/images'], {read: false})
     .pipe(clean());
 });
 
