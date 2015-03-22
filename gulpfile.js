@@ -28,6 +28,7 @@ gulp.task('scripts', function () {
     .pipe(uglify())
     .pipe(concat('application.js'))
     .pipe(gulp.dest('public/assets/js'))
+    .pipe(reload({stream: true}));
 });
 
 // styles
@@ -48,6 +49,12 @@ gulp.task('images', function() {
     .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
     .pipe(gulp.dest('public/assets/images'))
     .pipe(reload({stream: true}));
+});
+
+// fonts
+gulp.task('fonts', function() {
+  return gulp.src('themes/worldly/assets/fonts/**/*')
+    .pipe(gulp.dest('public/assets/fonts'))
 });
 
 // inline css
@@ -110,9 +117,9 @@ gulp.task('watch', function () {
 
 // default task
 gulp.task('default', ['clean'], function() {
-  runSequence(['styles', 'scripts', 'images'], 'browser-sync', 'watch');
+  runSequence(['styles', 'scripts', 'images', 'fonts'], 'browser-sync', 'watch');
 });
 
 gulp.task('build', ['clean'], function() {
-  runSequence(['styles', 'scripts', 'images'], 'inline-css', 'fingerprint', 'gzip');
+  runSequence(['styles', 'scripts', 'images', 'fonts'], 'inline-css', 'fingerprint', 'gzip');
 });
