@@ -1,0 +1,15 @@
+$z-layers: (
+  "modal":               10000,
+  "modal-bg":            9999,
+  "header":              500,
+  "body-text":           100,
+  "body-text-underline": -1
+);
+
+@function z($layer) {
+  @if not map-has-key($z-layers, $layer) {
+    @warn "No layer found for `#{$layer}` in $z-layers map. Property omitted.";
+  }
+
+  @return map-get($z-layers, $layer);
+}

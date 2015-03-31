@@ -51,6 +51,12 @@ gulp.task('images', function() {
     .pipe(reload({stream: true}));
 });
 
+// html
+gulp.task('html', function() {
+  return gulp.src('public/**/*.html')
+    .pipe(reload({stream: true}));
+});
+
 // fonts
 gulp.task('fonts', function() {
   return gulp.src('themes/worldly/assets/fonts/**/*')
@@ -67,7 +73,7 @@ gulp.task('inline-css', function() {
     .pipe(gulp.dest('public/'));
 });
 
-// fingerprint assets
+// version assets
 gulp.task('revision', function() {
   return gulp.src('public/assets/**/*')
     .pipe(rev())
@@ -76,6 +82,7 @@ gulp.task('revision', function() {
     .pipe(gulp.dest('./'));
 });
 
+// fingerprint assets
 gulp.task('fingerprint', ['revision'], function() {
   var manifest = gulp.src('./rev-manifest.json');
 
@@ -112,7 +119,7 @@ gulp.task('watch', function () {
   gulp.watch("themes/worldly/assets/css/**/*.scss", ['styles']);
   gulp.watch("themes/worldly/assets/js/**/*", ['scripts']);
   gulp.watch("themes/worldly/assets/images/**/*", ['images']);
-  // gulp.watch("./**/*.html", ['html']);
+  gulp.watch("public/**/*.html", ['html']);
 });
 
 // default task

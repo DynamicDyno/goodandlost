@@ -1,0 +1,75 @@
+@import 'helpers';
+
+body {
+  font-family: "Lora", serif;
+  font-size: 125%;
+  font-weight: 400;
+}
+
+$scale: 1.333;
+
+p {
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(0,10,0,.75);
+  letter-spacing: .01em;
+  margin: 0 0 .75em;
+  text-align: justify;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: $blue;
+  margin: 1.5em 0 .5em;
+}
+
+h1 {
+  font-size: 1em * $scale*$scale*$scale;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1em * $scale*$scale;
+}
+
+h3 {
+  font-size: 1em * $scale;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+a {
+  position: relative;
+  z-index: z('body-text');
+  color: $blue;
+  text-decoration: none;
+  text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
+  background-size: 2px 2px;
+  background-position: center 21px;
+  transition: background-position 0.35s, background-size 0.35s;
+
+  &:hover {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, $blue 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    background-position: 0 21px;
+  }
+}
+
+blockquote {
+  margin: 1.5em 0 1.5em -25px;
+  padding-left: 20px;
+  border-left: 5px solid $blue;
+  font-style: italic;
+}
+
+// remove text-shadow
+::selection {
+  text-shadow: none;
+  background: #FFB000;
+}
