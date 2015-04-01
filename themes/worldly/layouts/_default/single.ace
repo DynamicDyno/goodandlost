@@ -2,7 +2,16 @@
 html lang=en
   {{ partial "head" . }}
   body
+    {{ partial "header" . }}
+
+    .hero--post style="background-image: url(/assets/images/posts/{{ .Params.hero }});"
+
     .content
+
       {{ .Content }}
+
+      p.publish-date Penned on {{ .Date.Format "January 2, 2006" }} by <a href="http://www.kevinsweet.com">Kevin Sweet</a>.
+
+      {{ partial "disqus" . }}
 
     {{ partial "scripts" . }}

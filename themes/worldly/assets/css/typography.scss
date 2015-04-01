@@ -44,14 +44,12 @@ h4 {
 }
 
 a {
-  position: relative;
-  z-index: z('body-text');
   color: $blue;
   text-decoration: none;
   text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
   background-size: 2px 2px;
   background-position: center 21px;
-  transition: background-position 0.35s, background-size 0.35s;
+  transition: background-position 0.25s ease-in, background-size 0.25s ease-in;
 
   &:hover {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, $blue 100%);

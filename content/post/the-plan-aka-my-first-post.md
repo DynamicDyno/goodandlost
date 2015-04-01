@@ -1,6 +1,7 @@
 +++
 date = "2015-03-30T21:25:23-05:00"
 title = "The Plan (AKA My First Post)"
+hero = "beach.jpg"
 +++
 
 # The Plan (AKA My First Post)
