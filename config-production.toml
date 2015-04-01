@@ -1,4 +1,4 @@
-baseurl = "http://goodandlost.com/"
+baseurl = "https://goodandlost.com/"
 languageCode = "en-us"
 title = "Good and Lost"
 theme = "worldly"
