@@ -1,6 +1,6 @@
 header
   .page-container
     a href=/
-      picture
+      picture.header__logo
         source srcset="/assets/images/good-and-lost.png, /assets/images/good-and-lost@2x.png 2x"
-        img srcset="/assets/images/good-and-lost.png, /assets/images/good-and-lost@2x.png 2x" alt="Good and Lost"
+        img.header__logo-image srcset="/assets/images/good-and-lost.png, /assets/images/good-and-lost@2x.png 2x" alt="Good and Lost"
