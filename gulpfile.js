@@ -22,7 +22,7 @@ var gulp         = require('gulp'),
 
 // scripts
 gulp.task('scripts', function () {
-  return gulp.src('themes/worldly/assets/js/*.js')
+  return gulp.src('themes/worldly/assets/js/**/*.js')
     .pipe(jshint())
     .pipe(jshint.reporter('default'))
     .pipe(uglify())
