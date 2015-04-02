@@ -1,1 +1,4 @@
-script type=text/javascript src=/assets/js/application.js
+script.
+  document.createElement( "picture" );
+
+script type=text/javascript src=/assets/js/application.js async=true
