@@ -105,6 +105,11 @@ gulp.task('clean', function() {
     .pipe(clean());
 });
 
+// clear cache
+gulp.task('clear', function (done) {
+  return cache.clearAll(done);
+});
+
 // static server
 gulp.task('browser-sync', function() {
   browserSync({
