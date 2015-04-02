@@ -7,11 +7,11 @@ html lang=en
     .hero--post style="background-image: url(/assets/images/posts/{{ .Params.hero }});"
 
     .content
+      article
+        {{ .Content }}
 
-      {{ .Content }}
+        p.publish-date Penned on {{ .Date.Format "January 2, 2006" }} by <a href="http://www.kevinsweet.com">Kevin Sweet</a>.
 
-      p.publish-date Penned on {{ .Date.Format "January 2, 2006" }} by <a href="http://www.kevinsweet.com">Kevin Sweet</a>.
-
-      {{ partial "disqus" . }}
+        {{ partial "disqus" . }}
 
     {{ partial "scripts" . }}

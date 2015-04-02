@@ -1,2 +1,4 @@
 header
-  img src=/assets/images/good-and-lost.png
+  .page-container
+    a href=/
+      img.header__logo src=/assets/images/good-and-lost.png

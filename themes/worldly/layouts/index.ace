@@ -2,8 +2,10 @@
 html lang=en-US prefix="og: http://ogp.me/ns#"
   {{ partial "head" . }}
   body
+    {{ partial "header" . }}
+
     .hero
-      h1 Good and Lost
+
     ul.posts
       {{ range .Data.Pages }}
       li
