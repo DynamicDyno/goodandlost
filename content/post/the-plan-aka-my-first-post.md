@@ -4,8 +4,6 @@ title = "The Plan (AKA My First Post)"
 hero = "beach.jpg"
 +++
 
-# The Plan (AKA My First Post)
-
 In the summer of 2011 I stepped off a plane in Brussels, Belgium. It was my first time in a foreign country (<a href="http://www.slate.com/blogs/browbeat/2015/03/09/john_oliver_on_us_territories_voting_rights_why_can_t_puerto_rico_american.html" rel="nofollow">since apparently Puerto Rico doesn't count</a>) and I was on my way to Liège for a semester abroad. I didn't know anyone, except for the student who the school paired me with to pick me up from the train station. I still didn't have an apartment to stay in. I was apprehensive, excited, and probably above all just wanted a beer.
 
 The half year I stayed in Belgium was one of the best times of my life and it completely changed me. I became friends with people from all over the world. I was 23 years old and I had never left the country I was born in. All of a sudden I was hanging out with people from Brazil, Iran, Germany, Sweden, China, and many others. The first thing I noticed that surprised me was how we were all so similar. I expected us to have so many differences. Instead, I realized we were all college kids who enjoyed drinking with friends while playing <a href="http://www.drinkinggames.com/game.php/21/fuck+the+dealer" rel="nofollow">Fuck The Dealer</a>.

@@ -1,20 +1,45 @@
 @import 'helpers';
 
 article {
+  margin-bottom: 80px;
+
+  > p:first-child:first-letter {
+    float: left;
+    color: $blue;
+    font-size: 5.9em;
+    line-height: .8em;
+    padding: 0 10px 0 0;
+    margin-top: 6px;
+  }
+
   a {
     text-decoration: none;
-    text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
+    text-shadow: 1px 1px $white, 1px -1px $white, -1px 1px $white, -1px -1px $white;
     background-size: 2px 2px;
     background-position: center 21px;
-    transition: background-position 0.25s ease-in, background-size 0.25s ease-in;
+    transition: background-position .25s ease-in, background-size .25s ease-in;
 
     &:hover {
-      background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, $blue 100%);
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, $blue 100%);
       background-repeat: no-repeat;
       background-size: 100% 2px;
       background-position: 0 21px;
     }
   }
+
+  a::selection,
+  .dropcap::selection,
+  h1::selection,
+  h2::selection,
+  h3::selection,
+  h4::selection {
+    color: $white;
+  }
+}
+
+.dropcap {
+  padding-right: 10px;
+  color: $blue;
 }
 
 .publish-date {

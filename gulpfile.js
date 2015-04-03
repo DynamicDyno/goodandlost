@@ -22,8 +22,7 @@ var gulp         = require('gulp'),
 
 // scripts
 gulp.task('scripts', function () {
-  return gulp.src('themes/worldly/assets/js/**/*.js')
-    .pipe(jshint())
+  return gulp.src(['themes/worldly/assets/js/vendor/*.js', 'themes/worldly/assets/js/*.js'])
     .pipe(jshint.reporter('default'))
     .pipe(uglify())
     .pipe(concat('application.js'))
@@ -34,7 +33,6 @@ gulp.task('scripts', function () {
 // styles
 gulp.task('styles', function() {
   return gulp.src('themes/worldly/assets/css/application.scss')
-    .pipe(scsslint())
     .pipe(cssGlobbing({ extensions: ['.scss']   }))
     .pipe(sass())
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
@@ -61,6 +59,25 @@ gulp.task('html', function() {
 gulp.task('fonts', function() {
   return gulp.src('themes/worldly/assets/fonts/**/*')
     .pipe(gulp.dest('public/assets/fonts'))
+});
+
+// lint css
+gulp.task('lint-css', function() {
+  return gulp.src(['themes/worldly/assets/css/**/*.scss', '!themes/worldly/assets/css/vendor/**'])
+    .pipe(scsslint({
+      'config': 'scss-lint.yml'
+    }))
+});
+
+// lint js
+gulp.task('lint-js', function() {
+  return gulp.src(['themes/worldly/assets/js/**/*.js', '!themes/worldly/assets/js/vendor/**'])
+    .pipe(jshint())
+});
+
+// lint all
+gulp.task('lint', function() {
+  runSequence(['lint-css', 'lint-js']);
 });
 
 // inline css
@@ -129,7 +146,7 @@ gulp.task('watch', function () {
 
 // default task
 gulp.task('default', ['clean'], function() {
-  runSequence(['styles', 'scripts', 'images', 'fonts'], 'browser-sync', 'watch');
+  runSequence('lint', ['styles', 'scripts', 'images', 'fonts'], 'browser-sync', 'watch');
 });
 
 gulp.task('build', ['clean'], function() {

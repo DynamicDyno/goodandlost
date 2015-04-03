@@ -12,13 +12,16 @@ p {
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgba(0,10,0,.75);
+  color: rgba(0, 10, 0, .75);
   letter-spacing: .01em;
   margin: 0 0 .75em;
   text-align: justify;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.2;
@@ -57,5 +60,5 @@ blockquote {
 // remove text-shadow
 ::selection {
   text-shadow: none;
-  background: #FFB000;
+  background: $blue;
 }
