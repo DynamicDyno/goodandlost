@@ -1,7 +1,9 @@
 @import 'helpers';
 
 article {
-  margin-bottom: 80px;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 10px;
 
   > p:first-child:first-letter {
     float: left;
@@ -45,5 +47,5 @@ article {
 .publish-date {
   font-size: 90%;
   font-style: italic;
-  margin-top: 2em;
+  margin: 2em 0 80px;
 }

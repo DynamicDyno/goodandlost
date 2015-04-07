@@ -1,4 +1,6 @@
 header
   .page-container
-    a href=/
+    a.header__logo-link href=/
       img.header__logo src=/assets/images/good-and-lost.png
+    .header__nav-links
+      a.header__nav-link href=/ Blog

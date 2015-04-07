@@ -1,7 +1,7 @@
 @import 'helpers';
 
 body {
-  font-family: "Lora", serif;
+  font-family: $lora;
   font-size: 125%;
   font-weight: 400;
 }
@@ -22,7 +22,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Open Sans", sans-serif;
+  font-family: $open-sans;
   font-weight: 400;
   line-height: 1.2;
   color: $blue;

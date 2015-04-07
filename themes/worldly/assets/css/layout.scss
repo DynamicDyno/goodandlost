@@ -1,11 +1,14 @@
+@import 'helpers';
+
 .content {
-  max-width: 720px;
-  margin: 80px auto;
-  padding: 0 10px;
+  position: relative;
+  z-index: z('content');
+  padding: 80px 0;
+  background-color: $white;
 }
 
 .page-container {
   max-width: 960px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0 10px;
 }

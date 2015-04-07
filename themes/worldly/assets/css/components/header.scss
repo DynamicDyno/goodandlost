@@ -5,9 +5,25 @@ header {
   top: 0;
   padding-top: 20px;
   z-index: z('header');
+  width: 100%;
 }
 
 .header__logo {
   width: 210px;
   height: 80px;
+}
+
+.header__nav-links {
+  float: right;
+  margin-top: 25px;
+}
+
+.header__nav-link {
+  font-family: $open-sans;
+  color: $white;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
