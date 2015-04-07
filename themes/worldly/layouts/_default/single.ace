@@ -8,6 +8,7 @@ html lang=en
       .hero__text data-top-bottom="transform: translate3d(0, 75px, 0); opacity: 0;" data-top="transform: translate3d(0, 0px, 0); opacity: 1;" data-anchor-target=".hero--post"
         h1.hero__title {{ .Title }}
         p.hero__publish-date {{ .Date.Format "January 2, 2006" }}
+      a.hero__read-more-arrows href="#"
 
     .content
       article

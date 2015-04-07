@@ -8,7 +8,6 @@
   height: 100vh;
   background: url('/assets/images/home/surfboard-beach.jpg') center center no-repeat;
   background-size: cover;
-  // background-attachment: fixed;
   z-index: z('hero');
 
   &:before {
@@ -20,16 +19,6 @@
     width: 100%;
     z-index: z('hero') + 1;
   }
-
-  // &:after {
-  //   content: '';
-  //   position: absolute;
-  //   bottom: 0;
-  //   background: linear-gradient(to top, rgba(0, 0, 0, .3), $transparent);
-  //   height: 50vh;
-  //   width: 100%;
-  //   z-index: z('hero') + 2;
-  // }
 }
 
 .hero--post {
@@ -76,4 +65,48 @@
     height: 2px;
     background-color: $white;
   }
+}
+
+.hero__read-more-arrows {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+  width: 89px;
+  height: 50px;
+  margin: 0 auto;
+  z-index: z('hero-text') - 1;
+
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-iteration-count:infinite;
+  animation-name: bounce;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    transform: rotate(35deg);
+    background-color: $white;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 50px;
+    height: 2px;
+    transform: rotate(-35deg);
+    background-color: $white;
+  }
+}
+
+@keyframes bounce {
+  0%, 5%, 10%, 15%, 20% {-webkit-transform: translateY(0);}
+  7% {-webkit-transform: translateY(-20px);}
+  13% {-webkit-transform: translateY(-10px);}
 }

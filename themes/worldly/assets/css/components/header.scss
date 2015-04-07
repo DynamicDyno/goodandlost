@@ -21,9 +21,11 @@ header {
 .header__nav-link {
   font-family: $open-sans;
   color: $white;
+  background-color: rgba(255, 255, 255, .05);
   text-decoration: none;
+  padding: 5px 10px;
 
   &:hover {
-    text-decoration: underline;
+    background-color: rgba(255, 255, 255, .10);
   }
 }

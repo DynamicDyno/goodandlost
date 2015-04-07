@@ -5,12 +5,14 @@ html lang=en-US prefix="og: http://ogp.me/ns#"
     {{ partial "header" . }}
 
     .hero
+      a.hero__read-more-arrows href="#"
 
-    ul.posts
-      {{ range .Data.Pages }}
-      li
-        a href={{ .Permalink }}
-          {{ .Title }}
-      {{ end }}
+    .content
+      ul.posts
+        {{ range .Data.Pages }}
+        li
+          a href={{ .Permalink }}
+            {{ .Title }}
+        {{ end }}
 
     {{ partial "scripts" . }}
