@@ -2,5 +2,7 @@ header
   .page-container
     a.header__logo-link href=/
       img.header__logo src=/assets/images/good-and-lost.png
+    a.header__hamburger ≡
     .header__nav-links
+      a.header__nav-link href=/about About
       a.header__nav-link href=/ Blog

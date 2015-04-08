@@ -18,14 +18,29 @@ header {
   margin-top: 25px;
 }
 
+.header__hamburger {
+  display: none;
+}
+
 .header__nav-link {
   font-family: $open-sans;
   color: $white;
   background-color: rgba(255, 255, 255, .05);
   text-decoration: none;
   padding: 5px 10px;
+  margin-left: 10px;
 
   &:hover {
     background-color: rgba(255, 255, 255, .10);
+  }
+}
+
+@media (max-width: 480px) {
+  .header__hamburger {
+    display: block;
+  }
+
+  .header__nav-links {
+    display: none;
   }
 }
