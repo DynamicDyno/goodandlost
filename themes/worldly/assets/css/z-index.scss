@@ -5,6 +5,7 @@ $z-layers: (
   "content":             1000,
   "hero-text":           505,
   "hero":                400,
+  "negative":            -1
 );
 
 @function z($layer) {

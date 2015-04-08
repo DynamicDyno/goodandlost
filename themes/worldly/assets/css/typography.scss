@@ -62,3 +62,9 @@ blockquote {
   text-shadow: none;
   background: $blue;
 }
+
+@media (max-width: 480px) {
+  p {
+    text-align: left;
+  }
+}
