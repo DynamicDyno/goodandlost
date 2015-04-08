@@ -2,17 +2,18 @@
 html lang=en-US prefix="og: http://ogp.me/ns#"
   {{ partial "head" . }}
   body
-    {{ partial "header" . }}
+    .wrapper-all
+      {{ partial "header" . }}
 
-    .hero
-      a.hero__read-more-arrows href="#"
+      .hero
+        a.hero__read-more-arrows href="#"
 
-    .content
-      ul.posts
-        {{ range .Data.Pages }}
-        li
-          a href={{ .Permalink }}
-            {{ .Title }}
-        {{ end }}
+      .content
+        ul.posts
+          {{ range .Data.Pages }}
+          li
+            a href={{ .Permalink }}
+              {{ .Title }}
+          {{ end }}
 
     {{ partial "scripts" . }}

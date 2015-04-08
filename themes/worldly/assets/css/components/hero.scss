@@ -26,6 +26,11 @@
   @extend .hero;
 }
 
+.hero--about {
+  @extend .hero;
+  background-position: right;
+}
+
 .hero__text {
   position: absolute;
   bottom: 150px;
