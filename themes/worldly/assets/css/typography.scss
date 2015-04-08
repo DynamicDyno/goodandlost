@@ -64,6 +64,10 @@ blockquote {
 }
 
 @media (max-width: 480px) {
+  body {
+    font-size: 100%;
+  }
+
   p {
     text-align: left;
   }
