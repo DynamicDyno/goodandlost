@@ -3,6 +3,14 @@ languageCode = "en-us"
 title = "Good and Lost"
 theme = "worldly"
 disableLiveReload = true
+
+copyright = "Copyright Kevin Sweet"
+
+[author]
+  name = "Kevin Sweet"
+
+# differences in production
 uglyurls = true
+
 [permalinks]
   post = ":filename"

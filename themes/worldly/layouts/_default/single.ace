@@ -12,11 +12,15 @@ html lang=en
         a.hero__read-more-arrows href="#"
 
       .content
-        article
-          {{ .Content }}
+        .content-inner
+          .columns
+            article.middle-column
+              {{ .Content }}
 
-          p.publish-date Penned on {{ .Date.Format "January 2, 2006" }} by <a href="http://www.kevinsweet.com">Kevin Sweet</a>.
+              p.publish-date Penned on {{ .Date.Format "January 2, 2006" }} by <a href="http://www.kevinsweet.com">Kevin Sweet</a>.
 
-          {{ partial "disqus" . }}
+              {{ partial "disqus" . }}
+            .right-column
+              {{ partial "right-column" . }}
 
     {{ partial "scripts" . }}

@@ -1,0 +1,3 @@
+$(function() {
+  $('.right-column').pin();
+});

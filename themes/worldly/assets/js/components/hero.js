@@ -1,3 +1,9 @@
+// on mobile / touch devices, get rid of the fadeOut titles on image posts
+if (Modernizr.touch)
+  skrollr.init().destroy();
+else
+  var s = skrollr.init();
+
 $(function() {
   // adjust hero height, in case vh units don't work
   function resizeHero() {

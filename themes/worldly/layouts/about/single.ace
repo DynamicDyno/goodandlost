@@ -11,7 +11,11 @@ html lang=en
         a.hero__read-more-arrows href="#"
 
       .content
-        article
-          {{ .Content }}
+        .content-inner
+          .columns
+            article.middle-column
+              {{ .Content }}
+            .right-column
+              {{ partial "right-column" . }}
 
     {{ partial "scripts" . }}

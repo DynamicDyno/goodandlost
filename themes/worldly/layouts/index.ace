@@ -6,14 +6,20 @@ html lang=en-US prefix="og: http://ogp.me/ns#"
       {{ partial "header" . }}
 
       .hero
+        p A Travel Blog
         a.hero__read-more-arrows href="#"
 
       .content
-        ul.posts
-          {{ range .Data.Pages }}
-          li
-            a href={{ .Permalink }}
-              {{ .Title }}
-          {{ end }}
+        .content-inner
+          .columns
+            article.middle-column
+              ul.posts
+                {{ range .Data.Pages }}
+                li
+                  a href={{ .Permalink }}
+                    {{ .Title }}
+                {{ end }}
+            .right-column
+              {{ partial "right-column" . }}
 
     {{ partial "scripts" . }}

@@ -1,9 +1,6 @@
 @import 'helpers';
 
 article {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 0 10px;
 
   > p:first-child:first-letter {
     float: left;
