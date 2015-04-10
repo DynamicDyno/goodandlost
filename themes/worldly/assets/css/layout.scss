@@ -30,6 +30,10 @@
   width: 100%;
   max-width: 720px;
   padding: 0 10px;
+
+  > h2 {
+    margin-top: 0;
+  }
 }
 
 .right-column {
@@ -40,6 +44,10 @@
   min-height: 1px;
   padding-left: 20px;
   text-align: center;
+
+  > h3 {
+    margin-top: 0;
+  }
 }
 
 .page-container {
@@ -52,6 +60,10 @@
   .content {
     padding: 30px 0;
   }
+
+  .content-inner {
+    padding: 0;
+  }
 }
 
 @media (max-width: 1006px) {
@@ -63,5 +75,6 @@
   .right-column {
     float: none;
     margin: 0 auto;
+    padding-left: 0;
   }
 }

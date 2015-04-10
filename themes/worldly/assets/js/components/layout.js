@@ -1,3 +1,6 @@
 $(function() {
-  $('.right-column').pin();
+  $('.right-column').pin({
+    padding: { top: 40 },
+    minWidth: 989
+  });
 });

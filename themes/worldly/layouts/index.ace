@@ -5,19 +5,24 @@ html lang=en-US prefix="og: http://ogp.me/ns#"
     .wrapper-all
       {{ partial "header" . }}
 
-      .hero
-        p A Travel Blog
+      .hero data-bottom-top="transform: translate3d(0, 0px, 0);" data-top="transform: translate3d(0, 150px, 0);" data-anchor-target=".content"
+        .hero__text data-top-bottom="transform: translate3d(0, 35px, 0); opacity: 0;" data-top="transform: translate3d(0, 0px, 0); opacity: 1;" data-anchor-target=".hero"
+          .page-container
+            h2.hero__caption Not all who wander are lost...
         a.hero__read-more-arrows href="#"
 
       .content
         .content-inner
           .columns
-            article.middle-column
-              ul.posts
-                {{ range .Data.Pages }}
-                li
-                  a href={{ .Permalink }}
-                    {{ .Title }}
+            .middle-column
+              h2 Latest Posts
+              .post-links
+                {{ range where .Site.Pages "Section" "post" }}
+                a.post-link href={{ .Permalink }}
+                  .post-link__background style="background-image: url(/assets/images/posts/{{ .Params.hero }});"
+                    .post-link__text
+                      h3.post-link__title {{ .Title }}
+                      p.post-link__publish-date {{ .Date.Format "January 2, 2006" }}
                 {{ end }}
             .right-column
               {{ partial "right-column" . }}

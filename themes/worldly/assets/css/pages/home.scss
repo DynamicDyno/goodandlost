@@ -1,0 +1,57 @@
+@import 'helpers';
+
+.post-link {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.post-link__background {
+  height: 170px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.post-link__text {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  left: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.post-link__title {
+  color: $white;
+}
+
+.post-link__publish-date {
+  position: relative;
+  display: inline-block;
+  color: $white;
+  text-align: center;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: -110px;
+    top: 15px;
+    width: 100px;
+    height: 2px;
+    background-color: $white;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    right: -110px;
+    top: 15px;
+    width: 100px;
+    height: 2px;
+    background-color: $white;
+  }
+}

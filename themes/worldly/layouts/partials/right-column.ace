@@ -4,9 +4,9 @@ h3 Keep in touch!
     .icon-facebook
   a.social__icon href=https://twitter.com/goodnlost target=_blank
     .icon-twitter
-  a.social__icon href=/index.xml target=_blank
-    .icon-feed2
   a.social__icon href=https://instagram.com/goodnlost/ target=_blank
     .icon-instagram
+  a.social__icon href=/index.xml target=_blank
+    .icon-feed2
   / a.social__icon href=https://www.pinterest.com/goodandlost/ target=_blank
   /   .icon-pinterest

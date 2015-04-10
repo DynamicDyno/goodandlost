@@ -118,7 +118,7 @@ gulp.task('gzip', function() {
 
 // clean
 gulp.task('clean', function() {
-  return gulp.src(['public/assets/css', 'public/assets/js', 'public/assets/images'], {read: false})
+  return gulp.src(['public/assets/css', 'public/assets/js', 'public/assets/images', 'public/assets/fonts'], {read: false})
     .pipe(clean());
 });
 
