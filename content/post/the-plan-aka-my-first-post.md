@@ -18,7 +18,7 @@ All good things must come to an end though, and after a handful of months my mon
 
 I spent two and a half years in Colorado saving money with a single goal in mind: quit and travel the world. Now here I am, back in Missouri visiting family and friends, two weeks out from my next big trip.
 
-The truth is that I don't really know a whole lot about my next adventure. I know my start date (April 13th), and the first city I'm going to (Monterrey, Mexico). I know a vaguely the direction I'm heading (south), but couldn't tell you the specifics. In fact, I don't know what the second city I visit will be. One of the most common questions I've been asked is:
+The truth is that I don't really know a whole lot about my next adventure. I know my start date (April 13th), and the first city I'm going to (Monterrey, Mexico). I know vaguely the direction I'm heading (south), but couldn't tell you the specifics. In fact, I don't know what the second city I visit will be. One of the most common questions I've been asked is:
 
 > "How long will you be gone?"
 
