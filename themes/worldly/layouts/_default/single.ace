@@ -17,7 +17,7 @@ html lang=en
             article.middle-column
               {{ .Content }}
 
-              p.publish-date Penned on {{ .Date.Format "January 2, 2006" }} by <a href="http://www.kevinsweet.com">Kevin Sweet</a>.
+              p.publish-date Penned on {{ .Date.Format "January 2, 2006" }} by <a href="/about">Kevin Sweet</a>.
 
               {{ partial "disqus" . }}
             .right-column
