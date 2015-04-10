@@ -24,10 +24,12 @@
 .hero__text {
   position: absolute;
   left: 10px;
-  right: 10px;
   bottom: 150px;
+  right: 10px;
   text-align: center;
   z-index: z('hero-text');
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .hero__title {
@@ -118,6 +120,6 @@
   }
 
   .hero__title {
-    // font-size: 2em;
+    font-size: 2em;
   }
 }
