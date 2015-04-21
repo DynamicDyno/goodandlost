@@ -12,5 +12,5 @@ copyright = "Copyright Kevin Sweet"
 # differences in production
 uglyurls = true
 
-[permalinks]
-  post = ":filename"
+#[permalinks]
+#  post = ":filename"
