@@ -1,0 +1,12 @@
+= doctype html
+html lang=en
+  {{ partial "head" . }}
+  body
+    script src=https://api.tiles.mapbox.com/mapbox.js/v2.1.8/mapbox.js
+    link href=https://api.tiles.mapbox.com/mapbox.js/v2.1.8/mapbox.css rel=stylesheet
+    .wrapper-all
+      {{ partial "header" . }}
+
+    #map.map
+
+    {{ partial "scripts" . }}
