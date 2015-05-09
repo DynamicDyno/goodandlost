@@ -22,7 +22,7 @@ I was sold. All I wanted was a beer. I sat down and drank an Indio, asked for th
 
 I spent most of my first three days wandering around the city center. There's a park east of downtown called El Parque Fundidora. It's where an old Steel Foundry used to be until it went bankrupt. So now it's just a park with running trails, a lake, playgrounds, etc., and still has all of the old steel manufacturing buildings. To get there, you can take El Paseo Santa Lucía, which is a river walkway cutting through the city. I went to El Paseo Santa Lucía every day. It was such a beautiful place to walk and read. I would walk until I got tired and then read until I was bored of reading, then repeat. What a perfect way to spend a day!
 
-There were plenty of museums around as well. I went to El Museo de Arte Contemporáneo (Museum of Modern Art) on Wednesday with a friend I met downtown the day before. *Tip: this museum is free on Wednesdays!* There was an exhibit on Stanley Kubrick, where each room had a movie of his playing, with props and info about each. That was the highlight of the museum for me. I also checked out El Museo de Historia Mexicana (Museum of Mexican History) which was cool. I love history like that!
+There were plenty of museums around as well. I went to El Museo de Arte Contemporáneo (Museum of Modern Art) on Wednesday with a friend I met downtown the day before. *Tip: this museum is free on Wednesdays!* There was an exhibit on Stanley Kubrick, where each room had one of his movies playing, with props and info about each. That was the highlight of the museum for me. I also checked out El Museo de Historia Mexicana (Museum of Mexican History) which was cool. I love history like that!
 
 ### San Pedro Garza García
 
@@ -42,7 +42,7 @@ La Huasteca is a series of white cliffs just minutes from San Pedro:
 
 ![La Huasteca - Monterrey](/assets/images/posts/la-huasteca-monterrey.jpg)
 
-And finally we made it to Santiago, one of 83 "<a href="http://en.wikipedia.org/wiki/Pueblo_M%C3%A1gico" target="_blank" rel="nofllow">Pueblos Mágicos</a>." It's a cool little town historic town. More importantly, next to this town is La Cola de Caballo--which includes a park with a waterfall and other attractions such as the highest place to bungee jump in Mexico.
+And finally we made it to Santiago, one of 83 "<a href="http://en.wikipedia.org/wiki/Pueblo_M%C3%A1gico" target="_blank" rel="nofllow">Pueblos Mágicos</a>." It's a cool little historic town. More importantly, next to this town is La Cola de Caballo--which includes a park with a waterfall and other attractions such as the highest place to bungee jump in Mexico.
 
 ![Cascada Cola de Caballo](/assets/images/posts/cascada-cola-de-caballo.jpg)
 
