@@ -5,7 +5,7 @@ html lang=en
     .wrapper-all
       {{ partial "header" . }}
 
-      .hero--about style="background-image: url(/assets/images/{{ .Params.hero }});" data-bottom-top="transform: translate3d(0, 0px, 0);" data-top="transform: translate3d(0, 150px, 0);" data-anchor-target=".content"
+      .hero--about style="background-image: url(/assets/images/{{ .Params.hero }});" data-bottom-top="transform: translate3d(0, 0px, 0); -webkit-filter: blur(0px); -moz-filter: blur(0px); -o-filter: blur(0px); -ms-filter: blur(0px); filter: blur(0px);" data-top="transform: translate3d(0, 150px, 0); -webkit-filter: blur(10px); -moz-filter: blur(10px); -o-filter: blur(10px); -ms-filter: blur(10px); filter: blur(10px);" data-anchor-target=".content"
         .hero__text data-top-bottom="transform: translate3d(0, 80px, 0); opacity: 0;" data-top="transform: translate3d(0, 0px, 0); opacity: 1;" data-anchor-target=".hero--about"
           h1.hero__title {{ .Title }}
         a.hero__read-more-arrows href="#"
