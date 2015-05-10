@@ -2,6 +2,7 @@ header.header
   .page-container
     a.header__logo-link href=/
       img.header__logo src=/assets/images/good-and-lost.png
+      img.header__logo-compass src=/assets/images/compass-needle.png
     a.header__hamburger ≡
     .header__nav-links
       a.header__nav-close ×
