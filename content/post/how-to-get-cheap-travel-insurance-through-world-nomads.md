@@ -2,6 +2,7 @@
 date = "2015-04-09T19:23:04-05:00"
 title = "How To Get Cheap Travel Insurance Through World Nomads"
 hero = "scuba.jpg"
+categories = [ "Resources" ]
 +++
 
 Travel insurance is something you should probably have and hope to never have to use. Travel insurance can protect you from things such as stolen luggage and gear, canceled tickets, emergency medical visits, insanely expensive medical evacuation, and a handful of other things. <a href="https://www.worldnomads.com/" rel="nofollow" target="_blank">World Nomads</a> is a popular option that many backpackers choose.

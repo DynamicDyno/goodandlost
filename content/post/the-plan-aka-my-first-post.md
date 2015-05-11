@@ -2,6 +2,7 @@
 date = "2015-03-30T21:25:23-05:00"
 title = "The Plan (AKA My First Post)"
 hero = "beach.jpg"
+categories = [ "Blog" ]
 +++
 
 In the summer of 2011 I stepped off a plane in Brussels, Belgium. It was my first time in a foreign country (<a href="http://www.slate.com/blogs/browbeat/2015/03/09/john_oliver_on_us_territories_voting_rights_why_can_t_puerto_rico_american.html" rel="nofollow">since apparently Puerto Rico doesn't count</a>) and I was on my way to Liège for a semester abroad. I didn't know anyone, except for the student who the school paired me with to pick me up from the train station. I still didn't have an apartment to stay in. I was apprehensive, excited, and probably above all just wanted a beer.

@@ -17,12 +17,12 @@ html lang=en-US prefix="og: http://ogp.me/ns#"
             .middle-column
               h2 Latest Posts
               .post-links
-                {{ range where .Site.Pages "Section" "post" }}
-                a.post-link href={{ .Permalink }}
-                  .post-link__background style="background-image: url(/assets/images/posts/{{ .Params.hero }});"
+                {{ range .Site.Taxonomies.categories.blog }}
+                a.post-link href={{ .Page.Permalink }}
+                  .post-link__background style="background-image: url(/assets/images/posts/{{ .Page.Params.hero }});"
                     .post-link__text
-                      h3.post-link__title {{ .Title }}
-                      p.post-link__publish-date {{ .Date.Format "January 2, 2006" }}
+                      h3.post-link__title {{ .Page.Title }}
+                      p.post-link__publish-date {{ .Page.Date.Format "January 2, 2006" }}
                 {{ end }}
             .right-column
               {{ partial "right-column" . }}

@@ -2,6 +2,7 @@
 date = "2015-04-20T21:48:44-05:00"
 title = "Monterrey, Mexico: The Underrated Mountain City"
 hero = "potrero-chico.jpg"
+categories = [ "Blog" ]
 +++
 
 Monterrey is not a city that comes to mind for most people when they think about Mexico. I'm willing to bet that most Americans have never heard of it--me included until a few years ago. That's a little bit crazy, because it's a city of 6~ million people (depending on what you count), which is significantly bigger than Los Angeles, and it's really close to the United States border. AND it turns out that it's crazy beautiful.

@@ -2,6 +2,7 @@
 date = "2015-05-08T14:03:19-05:00"
 title = "Zacatecas, Mexico: The Mining Town"
 hero = "zacatecas/zacatecas-mexico.jpg"
+categories = [ "Blog" ]
 +++
 
 My second stop in Mexico was Zacatecas, an old mining town. After spending a week in Monterrey it was nice to be in a small city again. Well, smaller. 130,000 people live there. It must've been the ancient houses that made it seem small. Old, colorful houses clinging to the hills, cobblestone roads and alleys, small parks and plazas. I felt at home immediately. It's also over 8000 feet up in the mountains. Denver brags about being 5280 feet up. The weather was a little cooler and much drier.

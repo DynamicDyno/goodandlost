@@ -9,6 +9,9 @@ copyright = "Copyright Kevin Sweet"
 [author]
   name = "Kevin Sweet"
 
+[taxonomies]
+  category = "categories"
+
 # differences in production
 uglyUrls = true
 
