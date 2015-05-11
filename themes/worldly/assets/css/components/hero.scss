@@ -34,7 +34,9 @@
 
 .hero__text {
   position: absolute;
+  left: 0;
   bottom: 150px;
+  right: 0;
   text-align: center;
   z-index: z('hero-text');
   width: 100%;
