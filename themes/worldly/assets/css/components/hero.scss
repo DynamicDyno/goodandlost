@@ -10,6 +10,17 @@
   background: url('/assets/images/home/surfboard-beach.jpg') center center no-repeat;
   background-size: cover;
   z-index: z('hero');
+
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, .2), $transparent);
+    height: 400px;
+    width: 100%;
+    z-index: z('negative');
+    pointer-events: none;
+  }
 }
 
 .hero--post {
