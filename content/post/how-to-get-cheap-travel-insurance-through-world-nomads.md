@@ -5,7 +5,7 @@ hero = "scuba.jpg"
 categories = [ "Resources" ]
 +++
 
-Travel insurance is something you should probably have and hope to never have to use. Travel insurance can protect you from things such as stolen luggage and gear, canceled tickets, emergency medical visits, insanely expensive medical evacuation, and a handful of other things. <a href="https://www.worldnomads.com/" rel="nofollow" target="_blank">World Nomads</a> is a popular option that many backpackers choose.
+Travel insurance is something you should probably have and hope to never have to use. Travel insurance can protect you from things such as stolen luggage and gear, canceled tickets, emergency medical visits, insanely expensive medical evacuation, and a handful of other things. {{< link "https://www.worldnomads.com/" "World Nomads" >}} is a popular option that many backpackers choose.
 
 Since I'm about to embark on an indefinitely long world tour, I figured I should get some travel insurance and quickly settled on World Nomads. And since I plan to be gone for longer than a year, I put in a year for my coverage length (the longest they offer). I wrote down the price they quoted me ($1050 / $1333 based on which package I wanted).
 

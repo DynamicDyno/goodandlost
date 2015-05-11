@@ -43,7 +43,7 @@ La Huasteca is a series of white cliffs just minutes from San Pedro:
 
 {{< zoomimage "/assets/images/posts/la-huasteca-monterrey.jpg" "La Huasteca - Monterrey, Mexico" >}}
 
-And finally we made it to Santiago, one of 83 "<a href="http://en.wikipedia.org/wiki/Pueblo_M%C3%A1gico" target="_blank" rel="nofllow">Pueblos Mágicos</a>." It's a cool little historic town. More importantly, next to this town is La Cola de Caballo--which includes a park with a waterfall and other attractions such as the highest place to bungee jump in Mexico.
+And finally we made it to Santiago, one of 83 "{{% link "http://en.wikipedia.org/wiki/Pueblo_M%C3%A1gico" "Pueblos Mágicos" %}}." It's a cool little historic town. More importantly, next to this town is La Cola de Caballo--which includes a park with a waterfall and other attractions such as the highest place to bungee jump in Mexico.
 
 {{< zoomimage "/assets/images/posts/cascada-cola-de-caballo.jpg" "Cascada Cola de Caballo - Santiago, Mexico" >}}
 
