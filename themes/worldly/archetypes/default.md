@@ -1,5 +1,4 @@
 +++
-Description = ""
-Tags = []
-Categories = []
+hero = "default.jpg"
+categories = [ "Blog" ]
 +++
