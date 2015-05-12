@@ -64,7 +64,7 @@ if (document.getElementById("map")) {
 
     reachedMarker(); // initialize because we're starting at the first marker
 
-    draw();
+    window.setTimeout(draw, 1500);
 
     function draw() {
       // add a coordinate to the line
