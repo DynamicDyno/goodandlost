@@ -4,6 +4,7 @@ if (!Modernizr.touch) {
     $('.zoomimage').on('click', function(e) {
       $(this).parent().next('.zoomimage__modal').addClass('js-zoomimage__modal-open').show();
       zoomimageOpen = true;
+      moveImage(e);
     });
 
     $('.zoomimage__modal').on('click', function(e) {
@@ -11,7 +12,7 @@ if (!Modernizr.touch) {
       zoomimageOpen = false;
     });
 
-    $(document).on('mousemove', function(e) {
+    function moveImage(e) {
       if(zoomimageOpen) {
         $window = $(window);
         $image = $('.js-zoomimage__modal-open > .zoomimage__full-image');
@@ -34,6 +35,9 @@ if (!Modernizr.touch) {
 
         $image.css('transform', 'translate3d(' + x + 'px, ' + y + 'px, 0px)');
       }
+    }
+    $(document).on('mousemove', function(e) {
+      moveImage(e);
     });
   });
 }
