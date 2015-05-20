@@ -1,6 +1,6 @@
 <!-- Required Open Graph Info -->
-<meta property="og:title" content="{{ if eq .Title .Site.Title }}{{ .Title }}{{ else }}Good and Lost - {{ .Title }}{{ end }}" />
-<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}Not all who wander are lost...{{ end }}" />
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}Good and Lost - Not all who wander are lost...{{ end }}" />
 <meta property="og:type" content="{{ if .Params.type }}{{ .Params.type }}{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:image" content="{{ if .Params.hero }}https://goodandlost.com/assets/images/posts/{{ .Params.hero }}{{ else }}https://goodandlost.com/assets/images/compass-wide.png{{ end }}" />
