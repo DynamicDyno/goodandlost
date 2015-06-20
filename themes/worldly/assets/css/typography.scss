@@ -57,6 +57,11 @@ blockquote {
   font-style: italic;
 }
 
+hr {
+  margin: 2.5em 0;
+  border-color: $blue;
+}
+
 // remove text-shadow
 ::selection {
   text-shadow: none;
