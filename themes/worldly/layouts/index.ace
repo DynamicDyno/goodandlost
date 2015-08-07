@@ -8,7 +8,9 @@ html lang=en-US prefix="og: http://ogp.me/ns#"
       .hero data-bottom-top="transform: translate3d(0, 0px, 0); -webkit-filter: blur(0px); -moz-filter: blur(0px); -o-filter: blur(0px); -ms-filter: blur(0px); filter: blur(0px);" data-top="transform: translate3d(0, 150px, 0); -webkit-filter: blur(10px); -moz-filter: blur(10px); -o-filter: blur(10px); -ms-filter: blur(10px); filter: blur(10px);" data-anchor-target=".content"
         .hero__text data-top-bottom="transform: translate3d(0, 35px, 0); opacity: 0;" data-top="transform: translate3d(0, 0px, 0); opacity: 1;" data-anchor-target=".hero"
           .page-container
-            h2.hero__caption Not all who wander are lost...
+            h2.hero__quote
+              span.hero__quote-text "If you could live anywhere, wouldn't you want to live everywhere?"
+            h4.hero__quote-credit -Brendan Leonard
         a.hero__read-more-arrows href="#"
 
       .content

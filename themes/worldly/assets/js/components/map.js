@@ -1,6 +1,9 @@
 if (document.getElementById("map")) {
   L.mapbox.accessToken = 'pk.eyJ1IjoibGVhZHplcHBlbGluIiwiYSI6ImxyeHZRUHMifQ.obfdZ8F3spoiO0svHGPKQA';
-  var map = L.mapbox.map('map', 'leadzeppelin.ff24f216', { zoomControl: false });
+  var map = L.mapbox.map('map', 'leadzeppelin.n4474be7', { zoomControl: false });
+  var featureLayer = L.mapbox.featureLayer().addTo(map);
+  featureLayer.setGeoJSON(geojson);
+
   new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
 
   // MIT-licensed code by Benjamin Becquet
@@ -30,7 +33,7 @@ if (document.getElementById("map")) {
     var markers = [];
 
     // cache all of the markers
-    map.featureLayer.eachLayer(function(l) {
+    featureLayer.eachLayer(function(l) {
       markers.push(l);
       l.setOpacity(0); // initially hide all markers
     });
@@ -45,7 +48,7 @@ if (document.getElementById("map")) {
     var destinationPosition = markers[1].getLatLng();
 
     // the max in either latitude or longitude the cursor can move during each redraw
-    var drawDistance = .035;
+    var drawDistance = .06;
 
     // milliseconds it waits to redraw
     var drawDelay = 5;

@@ -55,6 +55,23 @@
   color: $white;
 }
 
+.hero__quote-text {
+  font-family: $lora;
+  font-style: italic;
+  color: $white;
+  text-shadow: 1px 1px $black;
+}
+
+.hero__quote-credit {
+  font-family: $open-sans;
+  color: $white;
+  text-transform: uppercase;
+  text-align: right;
+  margin-top: -20px;
+
+
+}
+
 .hero__publish-date {
   position: relative;
   display: inline-block;
@@ -133,5 +150,10 @@
 
   .hero__title {
     font-size: 2em;
+  }
+
+  .hero__quote-credit {
+    margin-top: 0;
+    text-align: center;
   }
 }
