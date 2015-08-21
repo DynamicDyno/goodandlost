@@ -1,4 +1,7 @@
-<img src="{{ index .Params 0 }}" alt="{{ index .Params 1 }}" class="zoomimage" />
+<figure>
+  <img src="{{ .Get 0 }}" alt="{{ .Get 1 }}" class="zoomimage" />
+  {{ if isset .Params 2 }}<figcaption> {{.Get 2}} </figcaption>{{ end }}
+</figure>
 <div class="zoomimage__modal">
-  <img src="{{ index .Params 0 }}" alt="{{ index .Params 1 }}" class="zoomimage__full-image" />
+  <img src="{{ .Get 0 }}" alt="{{ .Get 1 }}" class="zoomimage__full-image" />
 </div>

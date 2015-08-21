@@ -11,9 +11,7 @@ One of the first things I noticed was how this was very unlike the other Mayan r
 
 {{< zoomimage "/assets/images/posts/palenque/palenque-mexico.jpg" "Palenque, Mexico - The Ruins" >}}
 
-{{< zoomimage "/assets/images/posts/palenque/palenque-mexico-2.jpg" "Palenque, Mexico - The Ruins" >}}
-
-Ok, so this little shack isn't going to win awards for the most impressive structure at Palenque, but god damn is it picturesque. I loved it.
+{{< zoomimage "/assets/images/posts/palenque/palenque-mexico-2.jpg" "Palenque, Mexico - The Ruins" "Ok, so this little shack isn't going to win awards for the most impressive structure at Palenque, but god damn is it picturesque. I loved it." >}}
 
 {{< zoomimage "/assets/images/posts/palenque/palenque-mexico-3.jpg" "Palenque, Mexico - The Ruins" >}}
 
@@ -23,20 +21,14 @@ Ok, so this little shack isn't going to win awards for the most impressive struc
 
 {{< zoomimage "/assets/images/posts/palenque/palenque-mexico-6.jpg" "Palenque, Mexico - The Ruins" >}}
 
-{{< zoomimage "/assets/images/posts/palenque/palenque-mexico-7.jpg" "Palenque, Mexico - The Ruins" >}}
-
-You could actually crawl through a lot of the ruins. Some of the vaulted ceilings were still in tact. And some of the hallways and rooms were claustrophobically small.
+{{< zoomimage "/assets/images/posts/palenque/palenque-mexico-7.jpg" "Palenque, Mexico - The Ruins" "You could actually crawl through a lot of the ruins. Some of the vaulted ceilings were still in tact. And some of the hallways and rooms were claustrophobically small." >}}
 
 {{< zoomimage "/assets/images/posts/palenque/palenque-mexico-8.jpg" "Palenque, Mexico - The Ruins" >}}
 
-{{< zoomimage "/assets/images/posts/palenque/palenque-mexico-9.jpg" "Palenque, Mexico - The Ruins" >}}
-
-Most of the big buildings were temples, with either a religious purpose or in memory of one of the rulers. They made really intricate carvings for the center of the temples.
+{{< zoomimage "/assets/images/posts/palenque/palenque-mexico-9.jpg" "Palenque, Mexico - The Ruins" "Most of the big buildings were temples, with either a religious purpose or in memory of one of the rulers. They made really intricate carvings for the center of the temples." >}}
 
 {{< zoomimage "/assets/images/posts/palenque/palenque-mexico-10.jpg" "Palenque, Mexico - The Ruins" >}}
 
-{{< zoomimage "/assets/images/posts/palenque/palenque-mexico-11.jpg" "Palenque, Mexico - The Ruins" >}}
-
-I went down into that. It was a tiny crawlspace. I'm surprised they let people crawl through ruins like this anymore. But I'm not complaining; it was so cool!
+{{< zoomimage "/assets/images/posts/palenque/palenque-mexico-11.jpg" "Palenque, Mexico - The Ruins" "I went down into that. It was a tiny crawlspace. I'm surprised they let people crawl through ruins like this anymore. But I'm not complaining; it was so cool!" >}}
 
 Most of Palenque still hasn't been excavated yet. It's crazy to think that most of the ancient city is still underground. But what they have uncovered is great.

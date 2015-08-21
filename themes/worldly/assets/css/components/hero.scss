@@ -55,6 +55,15 @@
   color: $white;
 }
 
+.hero__quote {
+  font-size: 1.5em;
+  text-align: right;
+
+  @media (max-width: 980px) {
+    text-align: center;
+  }
+}
+
 .hero__quote-text {
   font-family: $lora;
   font-style: italic;
@@ -67,9 +76,7 @@
   color: $white;
   text-transform: uppercase;
   text-align: right;
-  margin-top: -20px;
-
-
+  margin-top: -5px;
 }
 
 .hero__publish-date {
