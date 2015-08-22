@@ -41,7 +41,7 @@ gulp.task('styles', function() {
 
 // images
 gulp.task('images', function() {
-  return gulp.src('themes/worldly/assets/images/**/*')
+  return gulp.src('images/**/*')
     .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
     .pipe(gulp.dest('public/assets/images'))
 });
