@@ -7,6 +7,14 @@ if (!Modernizr.touch) {
       moveImage(e);
     });
 
+    // when you mouseover a zoomimage, download the full version
+    $('.zoomimage').on('mouseover', function(e) {
+      var image = $(this).parent().next().children();
+      if (!image.attr('src')) {
+        image.attr('src', image.data('src'));
+      }
+    });
+
     $('.zoomimage__modal').on('click', function(e) {
       $(this).removeClass('js-zoomimage__modal-open').hide();
       zoomimageOpen = false;
