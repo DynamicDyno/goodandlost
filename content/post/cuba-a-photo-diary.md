@@ -8,6 +8,6 @@ draft = true
 
 For three weeks in July 2015 I made my way through Cuba, the Caribbean island stuck in time. It was an absolute whirlwind, and perhaps the first time I've really felt culture shock. Here are some photos of my trip.
 
-{{< zoomimage "/assets/images/posts/cuba/habana-cuba-malecon.jpg" "Habana, Cuba - Malecón" "The Malecón in Havana, looking toward Habana Vieja and El Castillo de Los Tres Reyes del Morro" >}}
+{{< zoomimage "posts/cuba/habana-cuba-malecon.jpg" "Habana, Cuba - Malecón" "The Malecón in Havana, looking toward Habana Vieja and El Castillo de Los Tres Reyes del Morro" >}}
 
-{{< zoomimage "/assets/images/posts/cuba/habana-cuba-malecon-vedado.jpg" "Habana, Cuba - Malecón" "The Malecón in Havana, looking toward El Vedado" >}}
+{{< zoomimage "posts/cuba/habana-cuba-malecon-vedado.jpg" "Habana, Cuba - Malecón" "The Malecón in Havana, looking toward El Vedado" >}}

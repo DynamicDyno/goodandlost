@@ -9,11 +9,11 @@ After Guadalajara, I made my way to the state of Guanajuato with my friend Tonio
 
 Okay, turns out they were actually kind of right about that.
 
-{{< zoomimage "/assets/images/posts/guanajuato/leon-guanajuato-cathedral.jpg" "León, Guanajuato, Mexico - Cathedral" >}}
+{{< zoomimage "posts/guanajuato/leon-guanajuato-cathedral.jpg" "León, Guanajuato, Mexico - Cathedral" >}}
 
 The cathedral was about the only cool thing there. A city of a million and a half people, and nothing to do. Tonio and I were the only people in the hostel too. The hostel was right off the main square and it had a sweet roof terrace. At least we got to watch some street comedy from the roof while drinking some beer.
 
-{{< zoomimage "/assets/images/posts/guanajuato/leon-guanajuato-street-comedy.jpg" "León, Guanajuato, Mexico - Street Comedy" >}}
+{{< zoomimage "posts/guanajuato/leon-guanajuato-street-comedy.jpg" "León, Guanajuato, Mexico - Street Comedy" >}}
 
 After a few hours we were ready to leave. Onto the main attraction, Guanajuato!
 
@@ -23,23 +23,23 @@ Guanajuato is one of those beautiful picturesque colonial towns, nestled in the 
 
 Before I go any further, a quick note about legends in Mexico. Mexico, more than other places I've traveled to, have a legend to accompany seemingly everything that has a name: streets, buildings, canyons, etc. Guanajuato is no different, and for whatever reason it seemed like there were far more legends. The most famous legend from Guanajuato was definitely El Pípila. As the story goes (although I heard several versions of the story), early in the Mexican Revolution, Spanish troops fortified themselves in a big stone building in Guanajuato called the Alhóndiga de Granaditas. Pípila supposedly strapped a large flat rock to the back of his back to prevent gunfire from killing him, and made his way to the wooden door of the building, which he set on fire. Then the rebels killed all of the Spanish soldiers inside. Here's the Alhóndiga de Granaditas from the inside:
 
-{{< zoomimage "/assets/images/posts/guanajuato/guanajuato-alhondiga-de-granaditas.jpg" "Guanajuato, Mexico - Alhóndiga de Granaditas" >}}
+{{< zoomimage "posts/guanajuato/guanajuato-alhondiga-de-granaditas.jpg" "Guanajuato, Mexico - Alhóndiga de Granaditas" >}}
 
 Anyway, Pípila now has a big monument at the coolest part of the city. There's a lookout spot that gives a fantastic view over the old colonial city:
 
-{{< zoomimage "/assets/images/posts/guanajuato/guanajuato.jpg" "Guanajuato, Mexico - El Pípila" >}}
+{{< zoomimage "posts/guanajuato/guanajuato.jpg" "Guanajuato, Mexico - El Pípila" >}}
 
 Guanajuato is such a unique place. It's a college town, so it's bustling with young students. The old, winding roads weren't intended for cars when they were built, so they're really narrow and in general it's quicker to get anywhere by foot. They actually built a series of tunnels underneath the city to move car traffic around quicker. You can walk through some of the tunnels, and it's definitely a little creepy at times. Here's the university:
 
-{{< zoomimage "/assets/images/posts/guanajuato/guanajuato-university.jpg" "Guanajuato, Mexico - University" >}}
+{{< zoomimage "posts/guanajuato/guanajuato-university.jpg" "Guanajuato, Mexico - University" >}}
 
 I spent about a week and a half in Guanajuato and three separate times I saw a crazy parade. There were people wearing indigenous-looking outfits dancing around. There were about a thousand people playing drums. It took at least an hour to walk through the main road, effectively blocking all traffic through the center of the city. I walked past the traffic that was sitting there waiting for the parade to end and the people in cars looked like they were just dying of boredom. Can you imagine sitting for hours in one place on the road every few days because there were parades? Here are some of the drummers. They were organized into different sections, and they played different rhythms:
 
-{{< zoomimage "/assets/images/posts/guanajuato/guanajuato-parade.jpg" "Guanajuato, Mexico - Parade" >}}
+{{< zoomimage "posts/guanajuato/guanajuato-parade.jpg" "Guanajuato, Mexico - Parade" >}}
 
 Here were some of the dancers. I'm not exactly sure what they're wearing!
 
-{{< zoomimage "/assets/images/posts/guanajuato/guanajuato-parade-2.jpg" "Guanajuato, Mexico - Parade" >}}
+{{< zoomimage "posts/guanajuato/guanajuato-parade-2.jpg" "Guanajuato, Mexico - Parade" >}}
 
 I don't know if this parade is something they do year-long or not, but I saw it several times.
 
@@ -47,7 +47,7 @@ I don't know if this parade is something they do year-long or not, but I saw it 
 
 Every night a group of people (who were obviously dressed very oddly) performed music and comedy through the streets and alleys of the city. They led you through the city, singing songs, telling jokes, and recounting legends of the streets.
 
-{{< zoomimage "/assets/images/posts/guanajuato/guanajuato-street-performance.jpg" "Guanajuato, Mexico - Street Performance" >}}
+{{< zoomimage "posts/guanajuato/guanajuato-street-performance.jpg" "Guanajuato, Mexico - Street Performance" >}}
 
 This was seriously awesome. The main guy who led everyone was funny and charismatic, and did a wonderful job. It's only in Spanish though, so to get the most out of it you'll want to speak Spanish.
 
@@ -63,7 +63,7 @@ The other legend about an alleyway that stuck out to me was the Callejón de Cab
 
 Tonio had some friends in town who got an AirBnB for a couple nights. They had a sweet view. Seeing the city at night was priceless. See that big square building? That's the Alhóndiga de Granaditas:
 
-{{< zoomimage "/assets/images/posts/guanajuato/guanajuato-at-night.jpg" "Guanajuato, Mexico - At Night" >}}
+{{< zoomimage "posts/guanajuato/guanajuato-at-night.jpg" "Guanajuato, Mexico - At Night" >}}
 
 ---
 
@@ -75,29 +75,29 @@ After Guanajuato, I didn't have super high hopes for San Miguel. I figured it wo
 
 One of the coolest things I went to in San Miguel was the botanical gardens. I've been to a lot of botanical gardens, and it's typically a whole bunch of pretty plants and flowers. This is the first time where the garden was significantly different than what I was used to. Instead of flowers, there were innumerable species of cacti! Pretty cool.
 
-{{< zoomimage "/assets/images/posts/guanajuato/san-miguel-de-allende-botanical-garden.jpg" "San Miguel de Allende, Mexico - Botanical Gardens" >}}
+{{< zoomimage "posts/guanajuato/san-miguel-de-allende-botanical-garden.jpg" "San Miguel de Allende, Mexico - Botanical Gardens" >}}
 
 There was a reservoir and some cliffs too.
 
-{{< zoomimage "/assets/images/posts/guanajuato/san-miguel-de-allende-botanical-garden-cliffs.jpg" "San Miguel de Allende, Mexico - Botanical Gardens" >}}
+{{< zoomimage "posts/guanajuato/san-miguel-de-allende-botanical-garden-cliffs.jpg" "San Miguel de Allende, Mexico - Botanical Gardens" >}}
 
 The gardens offered the best vista of the city too:
 
-{{< zoomimage "/assets/images/posts/guanajuato/san-miguel-de-allende-mirador.jpg" "San Miguel de Allende, Mexico - Mirador" >}}
+{{< zoomimage "posts/guanajuato/san-miguel-de-allende-mirador.jpg" "San Miguel de Allende, Mexico - Mirador" >}}
 
 ---
 
 Like every decent Mexican city, San Miguel has a chill plaza outside the cathedral.
 
-{{< zoomimage "/assets/images/posts/guanajuato/san-miguel-de-allende-cathedral.jpg" "San Miguel de Allende, Mexico - Cathedral" >}}
+{{< zoomimage "posts/guanajuato/san-miguel-de-allende-cathedral.jpg" "San Miguel de Allende, Mexico - Cathedral" >}}
 
 I had been wanting to see a concert in Mexico ever since I arrived. As it turned out, there was a free concert happening in this plaza in front of the cathedral! The band was called Camila and they were more or less a Mexican boy band, haha. Okay, they didn't really dance around and stuff like the Backstreet Boys, but every song was the same slow ballad that every girl in the audience sang every word to. Lily, a girl I met in the hostel, and I snuck up to a rooftop to snap a picture before getting yelled at:
 
-{{< zoomimage "/assets/images/posts/guanajuato/san-miguel-de-allende-concert.jpg" "San Miguel de Allende, Mexico - Camila Concert" >}}
+{{< zoomimage "posts/guanajuato/san-miguel-de-allende-concert.jpg" "San Miguel de Allende, Mexico - Camila Concert" >}}
 
 And of course this is Mexico, so just randomly throughout the day you'll find people dancing in a city square wearing weird shit:
 
-{{< zoomimage "/assets/images/posts/guanajuato/san-miguel-de-allende-dancing.jpg" "San Miguel de Allende, Mexico - Dancing" >}}
+{{< zoomimage "posts/guanajuato/san-miguel-de-allende-dancing.jpg" "San Miguel de Allende, Mexico - Dancing" >}}
 
 Seriously, the weird costume dancing is everywhere. *What are they doing!?!?!*
 

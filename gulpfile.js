@@ -7,6 +7,7 @@ var gulp         = require('gulp'),
     scsslint     = require('gulp-scss-lint'),
     minifycss    = require('gulp-minify-css'),
     imagemin     = require('gulp-imagemin'),
+    imageResize  = require('gulp-image-resize');
     autoprefixer = require('gulp-autoprefixer'),
     browserSync  = require('browser-sync'),
     cache        = require('gulp-cache'),
@@ -44,6 +45,16 @@ gulp.task('images', function() {
   return gulp.src('images/**/*')
     .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
     .pipe(gulp.dest('public/assets/images'))
+});
+
+// image resizing
+gulp.task('images-resize', function () {
+  gulp.src('images/**/*')
+    .pipe(imageResize({
+      width : 720,
+      upscale : false
+    }))
+    .pipe(gulp.dest('images/720'));
 });
 
 // html
@@ -143,9 +154,9 @@ gulp.task('watch', function () {
 
 // default task
 gulp.task('default', ['clean'], function() {
-  runSequence('lint', ['styles', 'scripts', 'images', 'fonts'], 'browser-sync', 'watch');
+  runSequence('lint', ['styles', 'scripts', 'images-resize', 'fonts'], 'images', 'browser-sync', 'watch');
 });
 
 gulp.task('build', ['clean'], function() {
-  runSequence(['styles', 'scripts', 'images', 'fonts'], 'inline-css', 'fingerprint', 'gzip');
+  runSequence(['styles', 'scripts', 'images-resize', 'fonts'], 'images', 'inline-css', 'fingerprint', 'gzip');
 });

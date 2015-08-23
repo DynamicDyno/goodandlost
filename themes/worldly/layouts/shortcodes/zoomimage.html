@@ -1,7 +1,7 @@
 <figure>
-  <img src="{{ .Get 0 }}" alt="{{ .Get 1 }}" class="zoomimage" />
+  <img src="/assets/images/720/{{ .Get 0 }}" alt="{{ .Get 1 }}" class="zoomimage" />
   {{ if isset .Params 2 }}<figcaption> {{.Get 2}} </figcaption>{{ end }}
 </figure>
 <div class="zoomimage__modal">
-  <img src="{{ .Get 0 }}" alt="{{ .Get 1 }}" class="zoomimage__full-image" />
+  <img src="/assets/images/{{ .Get 0 }}" alt="{{ .Get 1 }}" class="zoomimage__full-image" />
 </div>

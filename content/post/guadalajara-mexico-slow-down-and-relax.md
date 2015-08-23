@@ -11,31 +11,31 @@ Admittedly, I don't even really like big towns that much. At least, I prefer sma
 
 I started off just wandering to see what I could by foot. Losing yourself in a city is my go-to first day strategy. Guadalajara is spacious but there's still a lot in walking distance. Well, I'll walk just about anywhere (my sister will back me up on that), but seriously. Of course, the obligatory cathedral visit:
 
-{{< zoomimage "/assets/images/posts/guadalajara/guadalajara-mexico-cathedral.jpg" "Guadalajara, Mexico - Cathedral" >}}
+{{< zoomimage "posts/guadalajara/guadalajara-mexico-cathedral.jpg" "Guadalajara, Mexico - Cathedral" >}}
 
 The Theater Degollado (which unfortunately I didn't get to see anything in, but apparently there is a big festival coming up soon):
 
-{{< zoomimage "/assets/images/posts/guadalajara/guadalajara-teatro-degollado.jpg" "Guadalajara, Mexico - Teatro Degollado" >}}
+{{< zoomimage "posts/guadalajara/guadalajara-teatro-degollado.jpg" "Guadalajara, Mexico - Teatro Degollado" >}}
 
 The Hospicio Cabañas was an absolute treat. It's a huge building that used to be an orphanage. Now it's a museum, but the architecture is phenomenal. Many of the walls and ceilings are covered in paintings that are *huge*. It's impossible to get decent pictures of the inside, because the murals are hundreds of feet long and go all around you. They're full of color and very unique.
 
-{{< zoomimage "/assets/images/posts/guadalajara/guadalajara-mexico-las-cabanas.jpg" "Guadalajara, Mexico - Hospicio Cabañas" >}}
+{{< zoomimage "posts/guadalajara/guadalajara-mexico-las-cabanas.jpg" "Guadalajara, Mexico - Hospicio Cabañas" >}}
 
 The nightlife was great. Once I went to an outdoor salsa event with live music. Probably 300 people were dancing salsa. And let me tell you, they were *dancing salsa*. I like to dance, but this was something different. I think they were all salsa teachers or something. I couldn't believe how good they were. I've never seen someone dance so well in the US, and here were hundreds of random people in the street just lighting it up. Dancing is just much more a part of the culture growing up here than it is in the US.
 
 I ended up eating at this one taquería almost every day. Oh it was so good, and I could eat so much. I repeatedly ate them out of house and cilantro, yet the next day they still had more waiting for me.
 
-{{< zoomimage "/assets/images/posts/guadalajara/guadalajara-mexico-tacos.jpg" "Guadalajara, Mexico - Tacos" >}}
+{{< zoomimage "posts/guadalajara/guadalajara-mexico-tacos.jpg" "Guadalajara, Mexico - Tacos" >}}
 
 ## Tlaquepaque
 
 Tlaquepaque is one of those old towns that got swallowed up by the fast-growing Guadalajara. Going there now is crazy. It has cute, small pedestrian streets. It's full of statues (for some reason?). The plazas are full of food, drinks, ice cream, and sheltered by trees. It's just a really cool place in the middle of a big city.
 
-{{< zoomimage "/assets/images/posts/guadalajara/guadalajara-mexico-tlaquepaque.jpg" "Guadalajara, Mexico - Tlaquepaque" >}}
+{{< zoomimage "posts/guadalajara/guadalajara-mexico-tlaquepaque.jpg" "Guadalajara, Mexico - Tlaquepaque" >}}
 
 ## La Lucha Libre
 
-{{< zoomimage "/assets/images/posts/guadalajara/guadalajara-mexico-lucha-libre.jpg" "Guadalajara, Mexico - Lucha Libre" >}}
+{{< zoomimage "posts/guadalajara/guadalajara-mexico-lucha-libre.jpg" "Guadalajara, Mexico - Lucha Libre" >}}
 
 Remember that shitty Jack Black movie Nacho Libre? Yeah, I don't really either. But I think it had something to do with Mexican wrestling. Anyway, that's called La Lucha Libre, and apparently it actually is a real thing. Tonio and I went to see it one night. It cost about $5 to get in, and there were I think 22 wrestlers in all. How much are they paying these guys? There were four matches in total. The first was two on two, and the rest were three on three.
 
@@ -51,15 +51,15 @@ I only regret that I showed up to the show sober. That was a grave mistake. If y
 
 On the north side of the town was La Barranca de Hentitán, which is a big ravine with a river. The first time I went with Tonio and another American, Tyler, who was working in the hostel. We wanted to hike down to the river, but we only went to the viewpoint at the top and didn't find the path down.
 
-{{< zoomimage "/assets/images/posts/guadalajara/guadalajara-mexico-barranca-de-huentitan.jpg" "Guadalajara, Mexico - La Barranca de Huentitán" >}}
+{{< zoomimage "posts/guadalajara/guadalajara-mexico-barranca-de-huentitan.jpg" "Guadalajara, Mexico - La Barranca de Huentitán" >}}
 
 By the way, that's Guadalajara on the left, overlooking La Barranca. Pretty cool, eh? The second time I went with Angeles, a native Guadalajaran. And we found the actual path to go down into the ravine!
 
-{{< zoomimage "/assets/images/posts/guadalajara/guadalajara-mexico-barranca-de-huentitan-2.jpg" "Guadalajara, Mexico - La Barranca de Huentitán" >}}
+{{< zoomimage "posts/guadalajara/guadalajara-mexico-barranca-de-huentitan-2.jpg" "Guadalajara, Mexico - La Barranca de Huentitán" >}}
 
 And we made it down to the bottom just in time for the peak afternoon temperatures! Dem clouds though:
 
-{{< zoomimage "/assets/images/posts/guadalajara/guadalajara-mexico-barranca-de-huentitan3.jpg" "Guadalajara, Mexico - La Barranca de Huentitán" >}}
+{{< zoomimage "posts/guadalajara/guadalajara-mexico-barranca-de-huentitan3.jpg" "Guadalajara, Mexico - La Barranca de Huentitán" >}}
 
 The hike up was great because I haven't really *hiked* in months, and it's something I really miss about Colorado! There was a guy selling water and Gatorade at the halfway point. I gotta say, that was pretty sweet.
 
@@ -67,7 +67,7 @@ The hike up was great because I haven't really *hiked* in months, and it's somet
 
 I went to a football game! Guadalajara vs Veracruz. Unfortunately, Guadalajara lost, but it was still a fun experience. We got there about 15 minutes early, which was about 30 minutes too late, because the lines to get into the stadium were crazy. One of the most interesting parts is when the goalie for the away team is kicking the ball off, everyone in the stadium together starts yelling, "héééééééééééééééy" and as soon as he kicks the ball everyone yells "puto!" (which means fag). Seriously, tens of thousands of people calling the goalie a fag, every single time he kicks the ball. Just... interesting.
 
-{{< zoomimage "/assets/images/posts/guadalajara/guadalajara-mexico-omnilife-stadium-football.jpg" "Guadalajara, Mexico - Omnilife Stadium Football" >}}
+{{< zoomimage "posts/guadalajara/guadalajara-mexico-omnilife-stadium-football.jpg" "Guadalajara, Mexico - Omnilife Stadium Football" >}}
 
 ## Tequila
 
@@ -75,7 +75,7 @@ Did you know that Tequila is a real town? Seriously. It's where the liquor origi
 
 They gave us a short, free tour, and at the end the tour guide told us that they would try to get us drunk so we would buy more tequila. Also as promised, they tried to get us drunk. You could buy 5 liters of tequila for about 10 bucks, and it was *good*. Not wanting to carry around 5 goddamn liters of tequila, we opted for a regular bottle of a good one.
 
-{{< zoomimage "/assets/images/posts/guadalajara/tequila-mexico-don-kiko.jpg" "Tequila, Mexico - Don Kiko" >}}
+{{< zoomimage "posts/guadalajara/tequila-mexico-don-kiko.jpg" "Tequila, Mexico - Don Kiko" >}}
 
 The guy who dropped us off at the distillery came back and started drinking with us. He said he wanted to take us on a tour of Tequila, and that he was going to go get his truck. He came back with his daughter and we went out to his truck. It didn't have a backseat.
 
@@ -97,13 +97,13 @@ Every time he saw a friend in the road he stopped to ask for weed. Finally someo
 
 Filimon was a great tour guide though. He brought us to Agave fields and distilleries. He brought us to Los Lavaderos, which is where people wash clothes and other things:
 
-{{< zoomimage "/assets/images/posts/guadalajara/tequila-mexico-los-lavaderos.jpg" "Tequila, Mexico - Los Lavaderos" >}}
+{{< zoomimage "posts/guadalajara/tequila-mexico-los-lavaderos.jpg" "Tequila, Mexico - Los Lavaderos" >}}
 
 "This place fills up with women washing clothes," he told us. It was empty. About 10 minutes later, there were 20 women there washing this and that. It was crazy.
 
 He brought us to a scenic viewpoint overlooking some canyons close to Tequila, and told us the local legend. Everything in Mexico has a legend. Every alley, street, building, mountain has a legend.
 
-{{< zoomimage "/assets/images/posts/guadalajara/tequila-mexico-mirador.jpg" "Tequila, Mexico - Mirador" >}}
+{{< zoomimage "posts/guadalajara/tequila-mexico-mirador.jpg" "Tequila, Mexico - Mirador" >}}
 
 We finally went to a creek to smoke and relax before heading back on the bus to Guadalajara. What a day! Thanks to our super entertaining, friendly, and absolutely insane tour guide. Major props.
 
@@ -111,13 +111,13 @@ We finally went to a creek to smoke and relax before heading back on the bus to 
 
 South of Guadalajara is Lake Chapala, the biggest lake in Mexico. Tonio, Tómas, and I went on a day trip to two small towns on the lake. The first was Chapala. We ate tortas ahogadas and walked around town. You can take a boat ride out to an island on the lake, but we decided against it.
 
-{{< zoomimage "/assets/images/posts/guadalajara/chapala-mexico.jpg" "Chapala, Mexico" >}}
+{{< zoomimage "posts/guadalajara/chapala-mexico.jpg" "Chapala, Mexico" >}}
 
 Ajijic is just a little to the west. We took a local bus, which was packed, and while there were already a lot of people standing in the aisle, two guys with guitars came on board. People made room for them, and they stood in the aisle, leaned against the seats behind them, and played several songs. Both played and singed, and we had the best seats in the house, right in front of them. It was amazing. The bus was weaving and throwing the passengers left and right. The performers just leaned hard and played through everything. I loved it.
 
 Ajijic was pretty, although there were a lot of gringos, and it was pretty obvious because even a lot of the signs were in English.
 
-{{< zoomimage "/assets/images/posts/guadalajara/ajijic-mexico.jpg" "Ajijic, Mexico" >}}
+{{< zoomimage "posts/guadalajara/ajijic-mexico.jpg" "Ajijic, Mexico" >}}
 
 ## Moving on
 

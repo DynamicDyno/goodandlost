@@ -55,4 +55,4 @@ Seriously though, all in all it wasn't *that* bad. I mean, I had four buses, and
 
 Traveling isn't always carefree relaxing on the beach. But it's always worth it in the end. :)
 
-{{< zoomimage "/assets/images/posts/aguascalientes/aguascalientes-mexico.jpg" "Aguascalientes, Mexico" >}}
+{{< zoomimage "posts/aguascalientes/aguascalientes-mexico.jpg" "Aguascalientes, Mexico" >}}
