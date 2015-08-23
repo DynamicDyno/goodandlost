@@ -49,7 +49,7 @@ gulp.task('images', function() {
 
 // image resizing
 gulp.task('images-resize', function () {
-  gulp.src('images/**/*')
+  gulp.src(['images/**/*', '!images/720', '!images/720/**'])
     .pipe(imageResize({
       width : 720,
       upscale : false
