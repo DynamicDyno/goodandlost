@@ -75,7 +75,7 @@ For three weeks in July 2015 I made my way through Cuba, the Caribbean island st
 
 {{< zoomimage "posts/cuba/baracoa-cuba-line.jpg" "Baracoa, Cuba" "Lines like this are everywhere. I think this might have been for a bank, or maybe somebody got in a shipment of eggs or something. Baracoa" >}}
 
-{{< zoomimage "posts/cuba/baracoa-cuba-camion.jpg" "Baracoa, Cuba" "These are called camiones and it's how cubans get around. They're basically military transport vehicles from the war. Super cheap, not super comfortabl.e" >}}
+{{< zoomimage "posts/cuba/baracoa-cuba-camion.jpg" "Baracoa, Cuba" "These are called camiones and it's how cubans get around. They're basically military transport vehicles from the war. Super cheap, not super comfortable." >}}
 
 {{< zoomimage "posts/cuba/baracoa-cuba-bay.jpg" "Baracoa, Cuba" "Baracoa, with El Yunque in the background" >}}
 
