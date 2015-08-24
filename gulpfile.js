@@ -148,7 +148,7 @@ gulp.task('browser-sync', function() {
 gulp.task('watch', function () {
   gulp.watch("themes/worldly/assets/css/**/*.scss", ['styles']);
   gulp.watch("themes/worldly/assets/js/**/*", ['scripts']);
-  gulp.watch("themes/worldly/assets/images/**/*", ['images']);
+  gulp.watch("themes/worldly/assets/images/**/*", ['images', 'images-resize']);
   gulp.watch("public/**/*.html", ['html']);
 });
 
