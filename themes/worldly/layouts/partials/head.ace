@@ -2,8 +2,8 @@ head
   link rel=dns-prefetch href=//www.google-analytics.com
   meta charset=utf-8
   meta name=viewport content="width=device-width, initial-scale=1"
-  link rel="shortcut icon" href=/assets/images/favicon.ico type=image/x-icon
-  link rel=icon href=/assets/images/favicon.ico type=image/x-icon
+  link rel="shortcut icon" href=/favicon.ico type=image/x-icon
+  link rel=icon href=/favicon.ico type=image/x-icon
   title Good and Lost
   {{ partial "seo" . }}
   link href=/assets/css/application.css rel=stylesheet
