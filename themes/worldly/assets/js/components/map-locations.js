@@ -1091,9 +1091,9 @@ var geojson = [
           "id":"marker-asdf",
           "title":"Cancún",
           "description":"",
-          "marker-size":"large",
-          "marker-color":"#ffff00",
-          "marker-symbol":"star"
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
         },
         "geometry":{
           "coordinates":[
@@ -1243,9 +1243,9 @@ var geojson = [
           "id":"marker-asdf",
           "title":"Antigua",
           "description":"",
-          "marker-size":"small",
-          "marker-color":"#009fbf",
-          "marker-symbol":""
+          "marker-size":"large",
+          "marker-color":"#ffff00",
+          "marker-symbol":"star"
         },
         "geometry":{
           "coordinates":[
