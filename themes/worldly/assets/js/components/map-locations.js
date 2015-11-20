@@ -1243,14 +1243,147 @@ var geojson = [
           "id":"marker-asdf",
           "title":"Antigua",
           "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -90.729523,
+            14.558571
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Sumpango",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -90.739356,
+            14.649535
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"San Marcos La Laguna",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -91.257653,
+            14.723127
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Quetzaltenango (Xela)",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -91.518801,
+            14.834405
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Guatemala City",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -90.512629,
+            14.633722
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Juayúa",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -89.745818,
+            13.845084
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"El Tunco",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -89.384463,
+            13.494503
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"San Salvador",
+          "description":"",
           "marker-size":"large",
           "marker-color":"#ffff00",
           "marker-symbol":"star"
         },
         "geometry":{
           "coordinates":[
-            -90.729523,
-            14.558571
+            -89.239830,
+            13.708292
           ],
           "type":"Point"
         },
