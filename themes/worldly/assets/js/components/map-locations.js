@@ -1566,14 +1566,52 @@ var geojson = [
           "id":"marker-asdf",
           "title":"San José",
           "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -84.053746,
+            9.930837
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"David",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -82.443804,
+            8.427486
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Panamá City",
+          "description":"",
           "marker-size":"large",
           "marker-color":"#ffff00",
           "marker-symbol":"star"
         },
         "geometry":{
           "coordinates":[
-            -84.053746,
-            9.930837
+            -79.535852,
+            8.951292
           ],
           "type":"Point"
         },
