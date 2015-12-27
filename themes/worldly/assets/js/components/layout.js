@@ -1,8 +1,8 @@
 function pin_right_column() {
   $('.right-column').pin({
-    padding: { top: 40 },
+    padding: { top: 80 },
     minWidth: 989,
-    containerSelector: '.content'
+    containerSelector: '.columns'
   });
 }
 

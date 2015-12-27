@@ -1108,7 +1108,7 @@ var geojson = [
         "type":"Feature",
         "properties":{
           "id":"marker-asdf",
-          "title":"Tulum",
+          "title":"<a href=\"https://goodandlost.com/mexico-tulum-and-bacalar\">Tulum</a>",
           "description":"",
           "marker-size":"small",
           "marker-color":"#009fbf",
@@ -1127,7 +1127,7 @@ var geojson = [
         "type":"Feature",
         "properties":{
           "id":"marker-asdf",
-          "title":"Bacalar",
+          "title":"<a href=\"https://goodandlost.com/mexico-tulum-and-bacalar\">Bacalar</a>",
           "description":"",
           "marker-size":"small",
           "marker-color":"#009fbf",

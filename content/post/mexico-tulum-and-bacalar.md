@@ -5,9 +5,9 @@ hero = "tulum-bacalar/bacalar-mexico.jpg"
 title = "Mexico: Tulum and Bacalar"
 +++
 
-What in the *hell* have I been doing? It's hard to even say, and where do I begin? It's been over three months since I've written a blog post--not that that's surprising to me. Before I started my trip I knew there was a pretty good possibility this would happen. But, I figured I would man up and get it done. Looks like I was wrong!
+What in the *hell* have I been doing? It's hard to even say, and where do I begin? It's been over four months since I've written a blog post--not that that's surprising to me. Before I started my trip I knew there was a pretty good possibility this would happen. But, I figured I would man up and get it done. Looks like I was wrong!
 
-But what I want to avoid is long-term, habit-producing lack of documentation, that would eventually lead to me forgetting much of my trip. It's been about four years since I traipsed around Europe and honestly, I've forgotten way more of it than I would like to admit to myself. I can't even remember some of the cities I went to, and I can't remember 100% of the names of people I met unless we're still Facebook friends. How much of my first trip to Europe will I remember in 20 years?
+But what I want to avoid is long-term, habit-producing lack of documentation, that would eventually lead to me forgetting much of my trip. It's been about four years since I traipsed around Europe and honestly, I've forgotten way more of it than I would like to admit. I can't even remember some of the cities I went to, and I can't remember 100% of the names of people I met unless we're still Facebook friends. How much of my first trip to Europe will I remember in 20 years?
 
 And that's why I know it's important for me, at the very least, to archive some photos and anecdotes. So buckle up, let's post some travel stuff!
 
