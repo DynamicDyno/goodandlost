@@ -1,6 +1,6 @@
 +++
 categories = ["Blog"]
-date = "2015-08-24T13:24:29-05:00"
+date = "2015-12-27T18:00:00-07:00"
 hero = "tulum-bacalar/bacalar-mexico.jpg"
 title = "Mexico: Tulum and Bacalar"
 +++
