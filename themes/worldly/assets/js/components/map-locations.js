@@ -1604,14 +1604,71 @@ var geojson = [
           "id":"marker-asdf",
           "title":"Panamá City",
           "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -79.535852,
+            8.951292
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"San Blas Islands",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -78.82,
+            9.570000
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Cartagena",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -75.544822,
+            10.422589
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Taganga",
+          "description":"",
           "marker-size":"large",
           "marker-color":"#ffff00",
           "marker-symbol":"star"
         },
         "geometry":{
           "coordinates":[
-            -79.535852,
-            8.951292
+            -74.189372,
+            11.266557
           ],
           "type":"Point"
         },
