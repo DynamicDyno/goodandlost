@@ -1661,14 +1661,109 @@ var geojson = [
           "id":"marker-asdf",
           "title":"Taganga",
           "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -74.189372,
+            11.266557
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Minca",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -74.111645,
+            11.141450
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Medellín",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -75.599483,
+            6.258163
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Manizales",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -75.518912,
+            5.068734
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Cali",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -76.550943,
+            3.446605
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Popayán",
+          "description":"",
           "marker-size":"large",
           "marker-color":"#ffff00",
           "marker-symbol":"star"
         },
         "geometry":{
           "coordinates":[
-            -74.189372,
-            11.266557
+            -76.614739,
+            2.444814
           ],
           "type":"Point"
         },
