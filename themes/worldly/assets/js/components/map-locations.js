@@ -1773,6 +1773,25 @@ var geojson = [
         "type":"Feature",
         "properties":{
           "id":"marker-asdf",
+          "title":"San Agustín",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -76.271843,
+            1.883824
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
           "title":"Cali",
           "description":"",
           "marker-size":"small",
@@ -1783,6 +1802,25 @@ var geojson = [
           "coordinates":[
             -76.550943,
             3.446605
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Salento",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -75.571572,
+            4.641133
           ],
           "type":"Point"
         },
