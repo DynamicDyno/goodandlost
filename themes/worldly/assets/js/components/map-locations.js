@@ -1870,14 +1870,71 @@ var geojson = [
           "id":"marker-asdf",
           "title":"Sao Paulo",
           "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -46.637676,
+            -23.583444
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Foz do Iguaçu",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -54.592770,
+            -25.515907
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Puerto Iguazú",
+          "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -54.578599,
+            -25.597164
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Buenos Aires",
+          "description":"",
           "marker-size":"large",
           "marker-color":"#ffff00",
           "marker-symbol":"star"
         },
         "geometry":{
           "coordinates":[
-            -46.637676,
-            -23.583444
+            -58.388751,
+            -34.608791
           ],
           "type":"Point"
         },
