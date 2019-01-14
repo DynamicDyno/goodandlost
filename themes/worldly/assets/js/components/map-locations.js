@@ -1927,14 +1927,33 @@ var geojson = [
           "id":"marker-asdf",
           "title":"Buenos Aires",
           "description":"",
+          "marker-size":"small",
+          "marker-color":"#009fbf",
+          "marker-symbol":""
+        },
+        "geometry":{
+          "coordinates":[
+            -58.388751,
+            -34.608791
+          ],
+          "type":"Point"
+        },
+        "id":"asdf"
+      },
+      {
+        "type":"Feature",
+        "properties":{
+          "id":"marker-asdf",
+          "title":"Lima",
+          "description":"",
           "marker-size":"large",
           "marker-color":"#ffff00",
           "marker-symbol":"star"
         },
         "geometry":{
           "coordinates":[
-            -58.388751,
-            -34.608791
+            -77.042755,
+            -12.046373
           ],
           "type":"Point"
         },
