@@ -151,6 +151,9 @@
 }
 
 @media (max-width: 480px) {
+  .hero {
+    background: url('/assets/images/720/home/surfboard-beach.jpg') center center no-repeat;
+  }
   .hero__text {
     overflow: hidden;
   }
