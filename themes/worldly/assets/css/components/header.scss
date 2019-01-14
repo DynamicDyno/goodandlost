@@ -21,6 +21,7 @@
 
 .header__logo-link {
   position: relative;
+  display: block;
 
   &:hover {
     .header__logo-compass {

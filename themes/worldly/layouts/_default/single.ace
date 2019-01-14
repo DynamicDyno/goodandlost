@@ -11,7 +11,7 @@ html lang=en
           p.hero__publish-date {{ .Date.Format "January 2, 2006" }}
         a.hero__read-more-arrows href="#"
 
-      .content
+      section.content
         .content-inner
           .columns
             article.middle-column
