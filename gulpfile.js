@@ -19,7 +19,6 @@ var gulp         = require('gulp'),
     rev          = require('gulp-rev'),
     revReplace   = require('gulp-rev-replace'),
     fingerprint  = require('gulp-fingerprint'),
-    gm           = require('gulp-gm'),
     reload       = browserSync.reload;
 
 // scripts
