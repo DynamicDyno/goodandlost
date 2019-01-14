@@ -48,10 +48,10 @@ if (document.getElementById("map")) {
     var destinationPosition = markers[1].getLatLng();
 
     // the max in either latitude or longitude the cursor can move during each redraw
-    var drawDistance = .15;
+    var drawDistance = .3;
 
     // milliseconds it waits to redraw
-    var drawDelay = 4;
+    var drawDelay = 2;
 
     var xOffset,
         yOffset,

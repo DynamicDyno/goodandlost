@@ -2047,8 +2047,8 @@ var geojson = [
         },
         "geometry":{
           "coordinates":[
-            -75.469887,
-            40.335159
+            -68.125839,
+            -16.497789
           ],
           "type":"Point"
         },
