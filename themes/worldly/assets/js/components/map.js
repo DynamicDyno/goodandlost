@@ -59,7 +59,7 @@ if (document.getElementById("map")) {
 
     var bus = L.rotatedMarker(currentPosition, {
       icon: L.icon({
-        iconUrl: 'https://image.flaticon.com/icons/svg/15/t.svg',
+        iconUrl: 'https://image.flaticon.com/icons/svg/15/15923.svg',
         iconSize: [24, 24],
       })
     });
